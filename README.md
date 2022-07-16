@@ -22,6 +22,7 @@ To run this project, you will need to add the following environment variables to
 
 ```bash
 DB_DATABASE=<your_database_name>
+FORWARD_DB_PORT=<your_desired_port> ex: 3307
 ```
 
 
