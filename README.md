@@ -10,6 +10,7 @@ This is just a simple laravel application that uses lucid architecture. It is ea
 
 This project was created in Windows and runs in Laravel 9 and PHP (>= 8.0.0), this project has a few system requirements:
 - installed docker
+- composer
 - WSL2 for windows
 
 This project uses Laravel Sail for docker. 
@@ -30,6 +31,8 @@ After cloning, `cd` to project directory and run these commands:
 
 ```bash
 cp .env.template .env
+
+composer install
 
 bash ./vendor/laravel/sail/bin/sail up
 ```
